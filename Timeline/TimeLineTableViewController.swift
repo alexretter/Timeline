@@ -9,6 +9,8 @@
 import UIKit
 
 class TimeLineTableViewController: UITableViewController {
+    
+    var posts: [Post] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,19 @@ class TimeLineTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        if let currentUser = UserController.sharedInstance.currentUser {
+            if posts.count > 0 {
+                PostController.fetchTimelineForUser(currentUser, completion: { (postArray) -> Void in
+                    self.posts = postArray
+                })
+            }
+        }else{
+            tabBarController?.performSegueWithIdentifier("signupSegue", sender: nil)
+        }
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

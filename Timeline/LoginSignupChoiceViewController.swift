@@ -10,6 +10,15 @@ import UIKit
 
 class LoginSignupChoiceViewController: UIViewController {
 
+    @IBOutlet weak var timeline: UILabel!
+    
+    
+    @IBAction func login(sender: AnyObject) {
+    }
+
+    @IBAction func signup(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

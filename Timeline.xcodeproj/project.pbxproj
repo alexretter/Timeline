@@ -161,12 +161,12 @@
 			isa = PBXGroup;
 			children = (
 				99C04D421C7D0B1600D58953 /* LoginSignUpViewController.swift */,
+				99C04DDD1C7E843B00D58953 /* LoginSignupChoiceViewController.swift */,
+				99C04D381C7CFA4300D58953 /* TimeLineTableViewController.swift */,
 				99C04D401C7D078200D58953 /* PhotoTableViewController.swift */,
 				99C04D3E1C7D000400D58953 /* UserDetailProfileViewController.swift */,
 				99C04D3C1C7CFC6400D58953 /* UserSearchTableViewController.swift */,
 				99C04D3A1C7CFBC800D58953 /* PostDetailTableViewController.swift */,
-				99C04D381C7CFA4300D58953 /* TimeLineTableViewController.swift */,
-				99C04DDD1C7E843B00D58953 /* LoginSignupChoiceViewController.swift */,
 				99C04DD91C7E7D5B00D58953 /* ProfileViewController.swift */,
 				99C04DDB1C7E824000D58953 /* AddPhotoTableViewController.swift */,
 			);
