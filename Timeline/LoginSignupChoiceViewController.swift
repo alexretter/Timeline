@@ -1,18 +1,17 @@
 //
-//  LoginSignUpViewController.swift
+//  LoginSignupChoiceViewController.swift
 //  Timeline
 //
-//  Created by Alex Retter on 2/23/16.
+//  Created by Alex Retter on 2/24/16.
 //  Copyright © 2016 DevMountain. All rights reserved.
 //
 
 import UIKit
 
-class LoginSignUpViewController: UIViewController {
+class LoginSignupChoiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
 
         // Do any additional setup after loading the view.
     }

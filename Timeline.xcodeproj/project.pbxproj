@@ -19,6 +19,16 @@
 		99C04D3F1C7D000400D58953 /* UserDetailProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D3E1C7D000400D58953 /* UserDetailProfileViewController.swift */; };
 		99C04D411C7D078200D58953 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D401C7D078200D58953 /* PhotoTableViewController.swift */; };
 		99C04D431C7D0B1600D58953 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D421C7D0B1600D58953 /* LoginSignUpViewController.swift */; };
+		99C04D481C7D0EC800D58953 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D471C7D0EC800D58953 /* User.swift */; };
+		99C04D4A1C7D11AB00D58953 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D491C7D11AB00D58953 /* Comment.swift */; };
+		99C04D4C1C7D12E600D58953 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D4B1C7D12E600D58953 /* Like.swift */; };
+		99C04D4E1C7D137D00D58953 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D4D1C7D137D00D58953 /* Post.swift */; };
+		99C04D501C7D163300D58953 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D4F1C7D163300D58953 /* UserController.swift */; };
+		99C04D521C7D2C1600D58953 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D511C7D2C1600D58953 /* PostController.swift */; };
+		99C04D541C7D373E00D58953 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04D531C7D373E00D58953 /* ImageController.swift */; };
+		99C04DDA1C7E7D5B00D58953 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04DD91C7E7D5B00D58953 /* ProfileViewController.swift */; };
+		99C04DDC1C7E824000D58953 /* AddPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04DDB1C7E824000D58953 /* AddPhotoTableViewController.swift */; };
+		99C04DDE1C7E843B00D58953 /* LoginSignupChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C04DDD1C7E843B00D58953 /* LoginSignupChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,16 @@
 		99C04D3E1C7D000400D58953 /* UserDetailProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailProfileViewController.swift; sourceTree = "<group>"; };
 		99C04D401C7D078200D58953 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		99C04D421C7D0B1600D58953 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		99C04D471C7D0EC800D58953 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		99C04D491C7D11AB00D58953 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		99C04D4B1C7D12E600D58953 /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		99C04D4D1C7D137D00D58953 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		99C04D4F1C7D163300D58953 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		99C04D511C7D2C1600D58953 /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		99C04D531C7D373E00D58953 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		99C04DD91C7E7D5B00D58953 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		99C04DDB1C7E824000D58953 /* AddPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoTableViewController.swift; sourceTree = "<group>"; };
+		99C04DDD1C7E843B00D58953 /* LoginSignupChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +166,9 @@
 				99C04D3C1C7CFC6400D58953 /* UserSearchTableViewController.swift */,
 				99C04D3A1C7CFBC800D58953 /* PostDetailTableViewController.swift */,
 				99C04D381C7CFA4300D58953 /* TimeLineTableViewController.swift */,
+				99C04DDD1C7E843B00D58953 /* LoginSignupChoiceViewController.swift */,
+				99C04DD91C7E7D5B00D58953 /* ProfileViewController.swift */,
+				99C04DDB1C7E824000D58953 /* AddPhotoTableViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -153,6 +176,10 @@
 		99C04D451C7D0C6100D58953 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				99C04D471C7D0EC800D58953 /* User.swift */,
+				99C04D491C7D11AB00D58953 /* Comment.swift */,
+				99C04D4B1C7D12E600D58953 /* Like.swift */,
+				99C04D4D1C7D137D00D58953 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -160,6 +187,9 @@
 		99C04D461C7D0C6600D58953 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				99C04D4F1C7D163300D58953 /* UserController.swift */,
+				99C04D511C7D2C1600D58953 /* PostController.swift */,
+				99C04D531C7D373E00D58953 /* ImageController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -296,11 +326,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C04D391C7CFA4300D58953 /* TimeLineTableViewController.swift in Sources */,
+				99C04D4E1C7D137D00D58953 /* Post.swift in Sources */,
+				99C04DDC1C7E824000D58953 /* AddPhotoTableViewController.swift in Sources */,
 				01E3FC251BE92C7600187536 /* AppDelegate.swift in Sources */,
 				99C04D3F1C7D000400D58953 /* UserDetailProfileViewController.swift in Sources */,
 				99C04D431C7D0B1600D58953 /* LoginSignUpViewController.swift in Sources */,
+				99C04D4C1C7D12E600D58953 /* Like.swift in Sources */,
+				99C04D501C7D163300D58953 /* UserController.swift in Sources */,
+				99C04D541C7D373E00D58953 /* ImageController.swift in Sources */,
+				99C04D481C7D0EC800D58953 /* User.swift in Sources */,
 				99C04D3D1C7CFC6400D58953 /* UserSearchTableViewController.swift in Sources */,
+				99C04D521C7D2C1600D58953 /* PostController.swift in Sources */,
+				99C04DDE1C7E843B00D58953 /* LoginSignupChoiceViewController.swift in Sources */,
 				99C04D411C7D078200D58953 /* PhotoTableViewController.swift in Sources */,
+				99C04DDA1C7E7D5B00D58953 /* ProfileViewController.swift in Sources */,
+				99C04D4A1C7D11AB00D58953 /* Comment.swift in Sources */,
 				99C04D3B1C7CFBC800D58953 /* PostDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
